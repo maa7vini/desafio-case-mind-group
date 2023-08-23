@@ -1,0 +1,67 @@
+.cardCurso {
+    height: 270px;
+    width: 40%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cursoImg {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+.cursoImg img {
+    height: 100%;
+    width: 250px;
+}
+
+.cursoInfo {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #DC1D45;
+}
+
+.cursoInfo p {
+    font-size: 2em;
+    font-weight: bold;
+    color: #F5F5F5;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.178);
+}
+
+.cursoInfo span {
+    margin-top: 10px;
+    color: #F5F5F5;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.178);
+}
+
+.cursoInfo button {
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 10px 0px;
+    font-weight: bold;
+    border: 1px solid #F5F5F5;
+    background-color: #F5F5F5;
+    color: #DC1D45;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cursoInfo button:hover {
+    background-color: #f33c54;
+    transition: .5s;
+    color: #F5F5F5;
+}

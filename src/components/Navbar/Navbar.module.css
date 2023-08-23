@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+.nav {
+    height: 80px;
+    width: 100%;
+    background-color: #F65B6F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav img {
+    height: 50px;
+    width: 300px;
+}
+
+.navInput {
+    border: 1px solid rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+
+.navInput input {
+    margin-left: 10px;
+    padding: 5px 0px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 1.1em;
+    color: rgb(241, 241, 241);
+}
+
+.navInput input::placeholder {
+    color: #F4F4F4;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.menu p {
+    color: rgb(241, 241, 241);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.178);
+    font-size: 1.1em;
+}
+
+.curso {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.curso span {
+    margin-left: 5px;
+    color: rgb(241, 241, 241);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.178);
+    font-size: .9em;
+}
+
+.curso:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.logout span {
+    margin-left: 5px;
+    color: rgb(241, 241, 241);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.178);
+    font-size: .9em;
+}
+
+.logout:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
