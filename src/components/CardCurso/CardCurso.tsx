@@ -1,8 +1,8 @@
 import styles from './CardCurso.module.css'
 
 import Image, { StaticImageData } from 'next/image'
-import Logo from '@/assets/react-logo.png'
 import CustomButton from '../CustomButton/CustomButton'
+import Link from 'next/link'
 
 type IPropsCardCurso = {
     titulo: string
@@ -29,10 +29,14 @@ export default function CardCurso({titulo, conteudo, professorResponsavel, image
                     {conteudo}
                 </span>
 
-                <CustomButton 
-                    texto='Saiba mais'
-                    type='primary'
-                />
+                <Link href='/curso-info'> 
+                
+                    <CustomButton 
+                        texto='Saiba mais'
+                        type='primary'
+                    />
+
+                 </Link>
 
             </div>
         </main>
