@@ -43,13 +43,33 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 30%;
+    width: 40%;
 }
 
 .menu p {
     color: rgb(241, 241, 241);
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.178);
     font-size: 1.1em;
+}
+
+.dashboard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.dashboard span {
+    margin-left: 5px;
+    color: rgb(241, 241, 241);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.178);
+    font-size: .9em;
+}
+
+.dashboard:hover {
+    transform: scale(1.1);
+    transition: .5s;
 }
 
 .curso {

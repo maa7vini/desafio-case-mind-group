@@ -5,48 +5,61 @@ import CustomInput from '@/components/CustomInput/CustomInput'
 
 import Image from 'next/image'
 import Logo from '@/assets/logo-mindgroup.webp'
+import Head from 'next/head'
 
 export default function Cadastro(){
     return(
-        <main className={styles.container}>
+        <>
 
-            <div className={styles.containerL}>
+            <Head>
 
-                <h1> Cadastro </h1>
+                <title> Projeto Mind Group - Cadastro </title>
 
-                <form className={styles.form}>
-                    <CustomInput 
-                        label='Nome'
-                        placeholder='Digite seu nome...'
-                        type='text'
-                    />
+                <meta property='og:title' content='Projeto Mind Group - Login' key="title"/>
 
-                    <CustomInput 
-                        label='Email'
-                        placeholder='Crie seu email...'
-                        type='email'
-                    />
+            </Head>
+        
+            <main className={styles.container}>
 
-                    <CustomInput 
-                        label='Senha'
-                        placeholder='Crie uma senha...'
-                        type='password'
-                    />
+                <div className={styles.containerL}>
 
-                    <CustomButton 
-                        texto='Cadastrar'
-                        type='primary'
-                    />
-                </form>
+                    <h1> Cadastro </h1>
 
-            </div>
+                    <form className={styles.form}>
+                        <CustomInput 
+                            label='Nome'
+                            placeholder='Digite seu nome...'
+                            type='text'
+                        />
 
-            <div className={styles.containerR}>
+                        <CustomInput 
+                            label='Email'
+                            placeholder='Digite seu email...'
+                            type='email'
+                        />
 
-                <Image src={Logo} alt='Logo'/>
+                        <CustomInput 
+                            label='Senha'
+                            placeholder='Crie uma senha...'
+                            type='password'
+                        />
 
-            </div>
+                        <CustomButton 
+                            texto='Cadastrar'
+                            type='primary'
+                        />
+                    </form>
 
-        </main>
+                </div>
+
+                <div className={styles.containerR}>
+
+                    <Image src={Logo} alt='Logo'/>
+
+                </div>
+
+            </main>
+        
+        </>
     )
 }
