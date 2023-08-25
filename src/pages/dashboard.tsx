@@ -1,58 +1,39 @@
 import styles from '@/styles/dashboard.module.css'
 
 import Navbar from '@/components/Navbar/Navbar'
+import Tabela from '@/components/Tabela/Tabela'
 
-import { FiEdit } from 'react-icons/fi'
-import { AiOutlineClose, AiOutlineCheck } from 'react-icons/ai'
+import Head from 'next/head'
 
-export default function Dashboard(){
+export default function Dashboard(){   
     return(
-        <div className={styles.container}>
+        
+        <>
 
-            <Navbar />
+            <Head>
 
-            <div className={styles.dashboardContainer}>
+                <title> Projeto Mind Group - Dashboard </title>
 
-                <div className={styles.dashboard}>
+                <meta property='og:title' content='Projeto Mind Group - Login' key="title"/>
 
-                    <div className={styles.title}>
+            </Head>
 
-                        <p> Cursos cadastrados </p>
+            <div className={styles.container}>
 
-                    </div>
+                <Navbar />
 
-                    <div className={styles.table1}>
+                <div className={styles.containerTabela}>
 
-                        <h3> Nome </h3>
+                    <h1> Dashboard Admin </h1>
+                    <h2> Cursos cadastrados </h2>
 
-                        <h3> Status </h3>
-
-                        <h3> Ativar </h3>
-
-                        <h3> Desativar </h3>
-
-                        <h3> Editar </h3>
-
-                    </div>
-
-                    <div className={styles.table2}>
-                        
-                        <p> ReactJS </p>
-
-                        <p> Ativo </p>
-
-                        <AiOutlineCheck />
-
-                        <AiOutlineClose />
-
-                        <FiEdit />
-
-                    </div>
+                    <Tabela />
 
                 </div>
 
             </div>
+        </>
 
-        </div>
+        
     )
 }

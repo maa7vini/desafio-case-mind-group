@@ -4,6 +4,10 @@
     width: 100%;
     background-color: #1C1C1D;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .tituloHome {

@@ -6,13 +6,12 @@ import Link from 'next/link'
 
 type IPropsCardCurso = {
     titulo: string
-    conteudo: string
     professorResponsavel: string
     imagem: StaticImageData
     categoria: string
 }
 
-export default function CardCurso({titulo, conteudo, professorResponsavel, imagem, categoria}: IPropsCardCurso){
+export default function CardCurso({titulo, professorResponsavel, imagem, categoria}: IPropsCardCurso){
     return(
         <main className={styles.cardCurso}>
             <div className={styles.cursoImg}>
@@ -25,11 +24,11 @@ export default function CardCurso({titulo, conteudo, professorResponsavel, image
 
                 <p> {titulo} </p>
 
-                <span>
-                    {conteudo}
-                </span>
+                <span> {`Categoria: ${categoria}`} </span>
 
-                <Link href='/curso-info'> 
+                <span> {`Professor(a): ${professorResponsavel}`} </span>
+
+                <Link href='/curso-info' style={{ textDecoration: 'none' }}> 
                 
                     <CustomButton 
                         texto='Saiba mais'

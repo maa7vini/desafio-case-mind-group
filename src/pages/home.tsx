@@ -5,12 +5,23 @@ import CardCurso from '@/components/CardCurso/CardCurso'
 
 import Logo from '@/assets/react-logo.png'
 
+import Head from 'next/head'
+
 export default function Home(){
     return(
         <>
-            <main className={styles.container}>
 
-                <Navbar />
+            <Head>
+
+                <title> Projeto Mind Group - Home </title>
+
+                <meta property='og:title' content='Projeto Mind Group - Login' key="title"/>
+
+            </Head>
+
+            <Navbar />
+
+            <main className={styles.container}>
 
                 <div className={styles.containerCursos}>
 
@@ -18,9 +29,6 @@ export default function Home(){
 
                     <CardCurso 
                         titulo='Curso de ReactJS'
-                        conteudo='Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
-                        when an unknown printer took.'
                         imagem={Logo}
                         categoria='Tecnologia'
                         professorResponsavel='Samandra'
@@ -28,9 +36,6 @@ export default function Home(){
 
                     <CardCurso 
                         titulo='Curso de ReactJS'
-                        conteudo='Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
-                        when an unknown printer took.'
                         imagem={Logo}
                         categoria='Tecnologia'
                         professorResponsavel='Samandra'
@@ -38,9 +43,6 @@ export default function Home(){
 
                     <CardCurso 
                         titulo='Curso de ReactJS'
-                        conteudo='Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
-                        when an unknown printer took.'
                         imagem={Logo}
                         categoria='Tecnologia'
                         professorResponsavel='Samandra'
@@ -48,9 +50,6 @@ export default function Home(){
 
                     <CardCurso 
                         titulo='Curso de ReactJS'
-                        conteudo='Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
-                        when an unknown printer took.'
                         imagem={Logo}
                         categoria='Tecnologia'
                         professorResponsavel='Samandra'
