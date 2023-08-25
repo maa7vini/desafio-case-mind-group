@@ -19,28 +19,6 @@ No dia 21/08/2023, me foi passado pelo time de recrutamento da Mind Group um des
   
 ---
 
-## 🎨 Layout
-
-Todo o layout, UI e UX da aplicação foi criado e desenvolvido por mim! :)
-
-
-### Web
-
-<p style="display: flex; align-items: flex-start; justify-content: center;">
-
-![image](![image](https://github.com/maa7vini/desafio-case-mind-group/blob/main/src/assets/Tela-login.jpg))
-
-![image](![image](https://github.com/maa7vini/desafio-case-mind-group/blob/main/src/assets/Tela-cadastro.jpg))
-
-![image](![image](https://github.com/maa7vini/desafio-case-mind-group/blob/main/src/assets/Tela-home.jpg))
-
-![image](![image](https://github.com/maa7vini/desafio-case-mind-group/blob/main/src/assets/Tela-curso-info.jpg))
-
-![image](![image](https://github.com/maa7vini/desafio-case-mind-group/blob/main/src/assets/Tela-dashboard.jpg))
-
-</p>
-
-
 ## ⚙ Como executar<p id="-como-executar-o-projeto"></p>
 
 #### 🧭 Rodando a aplicação web (Frontend)
