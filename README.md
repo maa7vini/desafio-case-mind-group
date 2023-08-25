@@ -28,13 +28,15 @@ Todo o layout, UI e UX da aplicação foi criado e desenvolvido por mim! :)
 
 <p style="display: flex; align-items: flex-start; justify-content: center;">
 
-![image](![image](https://github.com/maa7vini/desafio-case-mind-group-back/assets/118569888/ee3a19e4-420c-4635-96f2-2f68a5e1d31f))
+![image](![image](https://github.com/maa7vini/desafio-case-mind-group/blob/main/src/assets/Tela-login.jpg))
 
-![image](![image](https://github.com/maa7vini/desafio-case-mind-group-back/assets/118569888/a351ab55-445b-4628-b392-d148cca3a5b3))
+![image](![image](https://github.com/maa7vini/desafio-case-mind-group/blob/main/src/assets/Tela-cadastro.jpg))
 
-![image](![image](https://github.com/maa7vini/desafio-case-mind-group-back/assets/118569888/a351ab55-445b-4628-b392-d148cca3a5b3))
+![image](![image](https://github.com/maa7vini/desafio-case-mind-group/blob/main/src/assets/Tela-home.jpg))
 
-![image](![image](https://github.com/maa7vini/desafio-case-mind-group-back/assets/118569888/a351ab55-445b-4628-b392-d148cca3a5b3))
+![image](![image](https://github.com/maa7vini/desafio-case-mind-group/blob/main/src/assets/Tela-curso-info.jpg))
+
+![image](![image](https://github.com/maa7vini/desafio-case-mind-group/blob/main/src/assets/Tela-dashboard.jpg))
 
 </p>
 
