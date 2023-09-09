@@ -13,6 +13,20 @@ No dia 21/08/2023, me foi passado pelo time de recrutamento da Mind Group um des
 
 ---
 
+## 🎨 Layout
+
+![image](https://github.com/maa7vini/desafio-case-mind-group/blob/main/src/assets/Tela-cadastro.jpg)
+
+![image](https://github.com/maa7vini/desafio-case-mind-group/blob/main/src/assets/Tela-login.jpg)
+
+![image](https://github.com/maa7vini/desafio-case-mind-group/blob/main/src/assets/Tela-home.jpg)
+
+![image](https://github.com/maa7vini/desafio-case-mind-group/blob/main/src/assets/Tela-curso-info.jpg)
+
+![image](https://github.com/maa7vini/desafio-case-mind-group/blob/main/src/assets/Tela-dashboard.jpg)
+
+---
+
 ## ⚙️ Funcionalidades<p id="-funcionalidades"></p>
 
 - O sistema auxilia os professores para cadastrar cursos na plataforma.
